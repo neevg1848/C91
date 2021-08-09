@@ -15,9 +15,6 @@ function ask(){
     number2 = document.getElementById("number_in2").value;
     answer = parseInt(number1)*parseInt(number2);
     
-    document.getElementById("exception").innerHTML = "The inputs are not in the correct type or lack information!";
-
-        
     answerLabel = "<b><p style='font-size: 45px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif'>Answer Here: </p></b>";
     question =  '<b><span><h2 id="question_placeholder">'+number1+" x "+number2+'</h4></span></b>';
     toAnswer =  '<input type="text" id="user_answer" style="margin-right: 10px; width: 280px; height: 40px; font-size: 25px; border-color: black; border-radius: 20px; margin-left: 10px;"></input>';
